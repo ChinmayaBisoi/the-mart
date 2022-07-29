@@ -3,7 +3,7 @@ import Logo from "../../../public/bolt-lightning-solid.svg";
 const index = () => {
   return (
     <div>
-      index <Logo />{" "}
+      index <Logo className="w-20 h-20" />{" "}
     </div>
   );
 };
