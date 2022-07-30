@@ -1,9 +1,12 @@
 import React from "react";
-import Logo from "../../../public/bolt-lightning-solid.svg";
+import MainContent from "../../components/the-mart/main-content";
+import TopNav from "../../components/the-mart/top-nav";
 const index = () => {
   return (
-    <div>
-      index <Logo className="w-20 h-20" />{" "}
+    <div className="text-[#100F0F] min-h-screen relative">
+      <TopNav />
+
+      <MainContent />
     </div>
   );
 };
